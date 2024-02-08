@@ -165,7 +165,7 @@ nav {
   color: darkcyan;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:600px) {
   .cart {
     width: 70vw;
     margin-left: 8rem;
@@ -173,6 +173,10 @@ nav {
 
   .nav-center {
     justify-content: space-around;
+  }
+
+  .count-btn {
+    right: 1vh;
   }
 }
 
